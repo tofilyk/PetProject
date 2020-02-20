@@ -1,10 +1,10 @@
 package com.github.tofilyk.petproject
 
-
 fun main() {
-    println(
-        " Enter 1 for game random \n Enter 2 for Calc \n Enter 3 for Salary \n" +
-                " Enter 4 for bubble sort \n Enter 911 for return to menu "
+    println( "\n" +
+            "      ======MENU======"+ "\n"+
+        " Enter 1 for Play Guess the number \n Enter 2 for Mortgage calculator \n Enter 3 for Salary calculator \n" +
+                " Enter 4 for Bubble sort \n Enter 911 for return to menu "
     )
     val xas = readLine()?.toInt() ?: 5
 
