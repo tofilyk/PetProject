@@ -5,4 +5,4 @@
  * Mortgage calculator. 
  * Salary calculator. 
  
-![logo] https://github.com/tofilyk/PetProject/blob/master/wine-bike-rack-oopsmark.jpg  
+![logo] (https://github.com/tofilyk/PetProject/blob/master/andro.png) 
