@@ -5,4 +5,4 @@
  * Mortgage calculator. 
  * Salary calculator. 
  
- [alt text](https://github.com/tofilyk/PetProject/blob/master/andro.png)
+ ! [alt text](https://github.com/tofilyk/PetProject/blob/master/andro.png)
