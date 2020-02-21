@@ -1,3 +1,3 @@
 # PetProject
 
-Here, I publish various mini-tasks. Calculators, etc.
+Here, I publish various mini-tasks. Calculators, etc..
