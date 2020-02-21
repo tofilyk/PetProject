@@ -4,3 +4,5 @@
  * Play Guess the number. 
  * Mortgage calculator. 
  * Salary calculator. 
+ 
+![logo] https://github.com/tofilyk/PetProject/blob/master/wine-bike-rack-oopsmark.jpg  
