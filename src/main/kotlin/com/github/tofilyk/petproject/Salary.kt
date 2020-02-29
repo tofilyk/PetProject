@@ -38,5 +38,6 @@ fun salary() {
         "Balance ${minus()} \n " +
                 "You spend ${percent()}% of your salary"
     )
+    println(" Total ${salaryList.sum()}")
     return main()
 }

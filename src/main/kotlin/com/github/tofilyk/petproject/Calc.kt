@@ -1,13 +1,11 @@
 package com.github.tofilyk.petproject
 
-
 val a = println("Enter the salary of a man")
 val askman = readLine()?.toInt()
 val b = println("Enter the salary of a woman")
 val askwoman = readLine()?.toInt()
 
 open class man {
-
 
     open val salary: Double = askman?.toDouble() ?: 1.0
     val month: Double = (salary / 100) * 5
@@ -18,10 +16,10 @@ open class man {
     val posSum = (positive.take(10).sum() * 12 * 0.05).toInt()
     fun possitiveSum() = println("Positive  calculation $posSum rub")
     val bankPercent = generateSequence(year) { it + ((it / 100) * 7) }.take(10).toList().sum().toInt()
-    fun bankStandart() = println("Standard  calculation bank procent ${bankPercent} rub")
+    fun bankStandart() = println("Standard  calculation bank procent $bankPercent rub")
     val bankPercentPositive = generateSequence(salary) {
-        (it + ((it / 100) * 15)
-                + ((it / 100) * 7))
+        (it + ((it / 100) * 15) +
+                ((it / 100) * 7))
     }.take(10)
     val bankPositivesum = (bankPercentPositive.sum() * 12 * 0.05).toInt()
     fun bankPositive() = println("Positive  calculation bank procent $bankPositivesum rub")
@@ -42,7 +40,6 @@ open class woman : man() {
 
     fun returnHome() {
         return main()
-
     }
 }
 
@@ -65,8 +62,5 @@ val allres = object : woman() {
         sumPositive() // Выводим накопления пары за 10 лет. Зарплата ежегодно повышается на 15% у обоих.
         sumPositiveBank() // Выводим накопления пары за 10 лет. Зарплата ежегодно повышается на 15% у обоих + банк процент
         returnHome()
-
     }
-
-
 }

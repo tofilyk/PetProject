@@ -1,7 +1,6 @@
 package com.github.tofilyk.petproject
 
-
-fun ran(){
+fun ran() {
 
     println("Now you need to guess a random number. \n Choose the number of attempts from 1 to 10")
     var answer_attempts = readLine()?.toInt() ?: 0
@@ -11,9 +10,8 @@ fun ran(){
         911 -> return main()
         else -> {
             println("Invalid number")
-             return ran()
-                    }
-
+            return ran()
+        }
     }
     val answer = readLine()!!.toInt()
     when (answer) {
@@ -42,6 +40,3 @@ fun ran(){
 
     return main()
 }
-
-
-
