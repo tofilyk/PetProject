@@ -11,9 +11,9 @@ fun triangle() {
 
     if (textA == 0 || textB == 0 || textC == 0)
         println("Side cannot be zero")
-    else if (textA > textB + textC) println("Cannot be a triangle")
-    else if (textB > textA + textC) println("Cannot be a triangle")
-    else if (textC > textA + textB) println("Cannot be a triangle")
+    else if (textA >= textB + textC) println("Cannot be a triangle")
+    else if (textB >= textA + textC) println("Cannot be a triangle")
+    else if (textC >= textA + textB) println("Cannot be a triangle")
     else if (textA == textB && textA == textC && textB == textC)
         println("This is an equilateral triangle.")
     else if (textA == textB && textA != textC && textB != textC)
