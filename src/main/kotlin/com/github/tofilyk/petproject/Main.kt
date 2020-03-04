@@ -17,5 +17,4 @@ fun main() {
     if (xas == 5) triangle()
 
     if (xas == 911) main()
-
 }
