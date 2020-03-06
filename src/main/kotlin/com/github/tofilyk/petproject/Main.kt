@@ -6,7 +6,7 @@ fun main() {
         "\n" +
                 "      ======MENU======" + "\n" +
                 " Enter 1 for Play Guess the number \n Enter 2 for Mortgage calculator \n Enter 3 for Salary calculator \n" +
-                " Enter 4 for Bubble sort \n Enter 5 for Triangle \n Enter 911 for return to menu"
+                " Enter 4 for Bubble sort \n Enter 5 for Triangle \n Enter 6  for Coffe machine \n Enter 911 for return to menu"
     )
     val xas = readLine()?.toInt()
 
@@ -15,6 +15,6 @@ fun main() {
     if (xas == 3) salary()
     if (xas == 4) bubble()
     if (xas == 5) triangle()
-
+    if (xas == 6) coffe()
     if (xas == 911) main()
 }
