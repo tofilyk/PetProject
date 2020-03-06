@@ -1,6 +1,6 @@
 package com.github.tofilyk.petproject
 
-import java.util.*
+import java.util.Scanner
 
 fun coffe() {
     val scanner = Scanner(System.`in`)
