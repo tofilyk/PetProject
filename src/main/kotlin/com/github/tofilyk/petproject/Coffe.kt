@@ -77,6 +77,5 @@ fun coffe() {
         }
         if (userInput == "remaining") result()
         if (userInput == "exit") return
-
     }
 }
