@@ -6,5 +6,6 @@
  * Salary calculator. 
  * Testing the sides of a triangle.
  * Coffee machine menu.
+ * Binary search algorithm.
  
  
